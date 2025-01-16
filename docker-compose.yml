@@ -1,6 +1,6 @@
 services:
   jenkins:
-    image: myjenkins-blueocean:2.479.3-1
+    image: myjenkins:latest
     container_name: jenkins
     restart: on-failure
     privileged: true
