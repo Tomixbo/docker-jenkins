@@ -22,7 +22,7 @@ docker run --name jenkins --restart=on-failure --detach ^
   --privileged ^
   --env DOCKER_HOST=tcp://host.docker.internal:2375 ^
   --volume jenkins-data:/var/jenkins_home ^
-  --publish 8080:8080 --publish 50000:50000 myjenkins-blueocean:2.479.3-1
+  --publish 8080:8080 --publish 50000:50000 myjenkins
 ```
 Alternative with docker compose:
 ```bash
